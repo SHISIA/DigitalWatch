@@ -1,11 +1,8 @@
 package watch;
 
-import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.text.Text;
-import javafx.stage.Stage;
 
 import java.net.URL;
 import java.util.Date;
@@ -508,7 +505,7 @@ public class Controller implements Initializable {
                     Em.setText("PM");
                 }
                 String dayMessage=daytime.getText();
-                WISHER.setText("Nice "+dayMessage+" "+name);
+                WISHER.setText("Have a Nice "+dayMessage+" "+name);
                 
                 
                 today.setText(time[0]+" "+time[2]+" "+time[1]+" "+time[5]);
